@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComposeDesigh"
+        tools:targetApi="31">
+        <activity
+            android:name=".menus.EditableExposedDropdownMenuSample"
+            android:exported="false" />
+        <activity
+            android:name=".menus.ExposedDropdownMenuSample"
+            android:exported="false" />
+        <activity
+            android:name=".menus.MenuWithScrollStateSample"
+            android:exported="false" />
+        <activity
+            android:name=".menus.MenuSample"
+            android:exported="false" />
+        <activity
+            android:name=".MenusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dialogs.BasinDialosSample"
+            android:exported="false" />
+        <activity
+            android:name=".Dialogs.AlertDialogWithIconSample"
+            android:exported="false" />
+        <activity
+            android:name=".Dialogs.AlertDialogSample"
+            android:exported="false" />
+        <activity
+            android:name=".DialogsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomSheets.BottomSheetScaffoldNestedScrollSample"
+            android:exported="false" />
+        <activity
+            android:name=".BottomSheets.SimpleBottomSheetScaffoldSample"
+            android:exported="false" />
+        <activity
+            android:name=".BottomSheets.BottomSheetFragment"
+            android:exported="false" />
+        <activity
+            android:name=".BottomSheets.ModalBottomSheetSample"
+            android:exported="false" />
+        <activity
+            android:name=".BottomSheetsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExtendedFABs.AnimatedExtendedFloatingActionButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".ExtendedFABs.ExtendedFloatingActionButtonTextSample"
+            android:exported="false" />
+        <activity
+            android:name=".ExtendedFABs.ExtendedFloatingActionButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".ExtendedFABActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Snackbars.ScaffordWithMultilineSnackbar"
+            android:exported="false" />
+        <activity
+            android:name=".Snackbars.ScaffordWithCoroutineSnackbar"
+            android:exported="false" />
+        <activity
+            android:name=".Snackbars.ScaffordWithCustomSnackbar"
+            android:exported="false" />
+        <activity
+            android:name=".Snackbars.ScaffordWithIdefiniteSnackbar"
+            android:exported="false" />
+        <activity
+            android:name=".Snackbars.ScaffordWithSimpleSnackbar"
+            android:exported="false" />
+        <activity
+            android:name=".SnackBarsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextArea"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.PasswordTextField"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextFieldWithSupportingText"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextFieldWithErrorState"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextFieldWithPrefixAndSuffix"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextFieldWithPlaceHolder"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextFieldWithIcons"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.OutlinedTextFieldSample"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.SimpleOutlinedTextFieldSample"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.TextFieldSample"
+            android:exported="false" />
+        <activity
+            android:name=".textFields.SimpleTextFieldSample"
+            android:exported="false" />
+        <activity
+            android:name=".TextFieldsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchBars.DockedSearchBarSample"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressIndicators.IndeterminateCircularProgressIndicator"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressIndicators.CircularProgressIndidcator"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressIndicators.IndeterminateLinearProgressIndicatorSample"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressIndicators.LinearProgressIndicatorSample"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressIndicatorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchBars.SearchBarSample"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickers.TimeInputSample"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickers.TimePickerSample"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickers.DateRangePickerSample"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickers.DateInputSample"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickers.DatePickerWithDateSelectableDatesSample"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickers.DatePickerSample"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickers.DatePickerDialogSample"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SegmentetButtons.SegmentedButtonMultiSelectSample"
+            android:exported="false" />
+        <activity
+            android:name=".SegmentetButtons.SegmentedButtonSingleSelectSample"
+            android:exported="false" />
+        <activity
+            android:name=".SegmentedButtonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.ChipGroupReflowSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.ChipGroupSingleLineSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.ElevatedSuggestionChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.SuggestionChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.InputChipWithAvatarSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.InputChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.FilterChipWithLeadingIconSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.ElevatedFilterChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.FilterChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.ElevatedAssistChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".Chipses.AssistChipSample"
+            android:exported="false" />
+        <activity
+            android:name=".ChipsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ChipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationBar.NavigationBarOnlySelectedLabelsSample"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationBar.NavigationBarSample"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.OutlinedIconToggleButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.OutlinedIconButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.FilledTonalIconToggleButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.FilledTonalIconButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.FilledIconToggleButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.FilledIconButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.iconToggleButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.TintedIconButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButton.IconButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".IconButtons"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButton.RadioGroupSample"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButton.RadioButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Switches.SwitchWithThumblIconSample"
+            android:exported="false" />
+        <activity
+            android:name=".Switches.SwitchSample"
+            android:exported="false" />
+        <activity
+            android:name=".SwtichesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxes.TriStateCheckBoxSample"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxes.CheckBoxWithTextSample"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxes.CheckBoxSample"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Buttons.TextWithIcon"
+            android:exported="false" />
+        <activity
+            android:name=".Buttons.TextButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".Buttons.OutlinedButton"
+            android:exported="false" />
+        <activity
+            android:name=".Buttons.FilledTonalButton"
+            android:exported="false" />
+        <activity
+            android:name=".Buttons.ElevatedButtonSample"
+            android:exported="false" />
+        <activity
+            android:name=".Buttons.SampleButton"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

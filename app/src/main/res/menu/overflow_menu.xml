@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_1"
+        android:title="Настройки"
+        android:icon="@drawable/icon_buttons"/>
+    <item android:id="@+id/option_2"
+        android:title="Обратная связь"
+        android:icon="@drawable/like"/>
+    <item android:id="@+id/option_3"
+        android:title="Пожелания"
+        android:icon="@drawable/ik_add_circle"/>
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Material Compose Desigh</string>
+    <string-array name="dishes_array">
+        <item>Пельмени</item>
+        <item>Борщ</item>
+        <item>Шашлык</item>
+        <item>Суши</item>
+        <item>Паста карбонара</item>
+    </string-array>
+</resources>

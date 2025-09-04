@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxes.TriStateCheckBoxSample">
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFF7FF"
+        android:gravity="center"> <!-- Цвет фона похожий на ваш -->
+
+
+        <CheckBox
+            android:id="@+id/checkbox_receive_emails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receive Emails"
+            android:checked="true"
+             />
+
+        <CheckBox
+            android:id="@+id/checkbox_daily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily"
+            android:checked="true"
+            android:layout_marginEnd="10dp"
+
+             />
+
+        <CheckBox
+            android:id="@+id/checkbox_weekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly"
+            android:checked="true"
+
+             />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

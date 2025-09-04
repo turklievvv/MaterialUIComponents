@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingConstraints"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="12dp"
+    android:layout_marginTop="5dp">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/constraintLayout">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="nameButton"
+    app:layout_constraintStart_toStartOf="parent"
+    android:id="@+id/nameButtonInRecyclerView"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:textSize="15sp"
+    android:textStyle="bold"
+
+     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buttonDescription"
+        app:layout_constraintTop_toBottomOf="@id/nameButtonInRecyclerView"
+        app:layout_constraintStart_toStartOf="@id/nameButtonInRecyclerView"
+        android:layout_marginTop="10dp"
+        android:textSize="13sp"
+        android:id="@+id/buttonDescriptionInRecyclerView"
+        app:layout_constraintBottom_toBottomOf="@id/constraintLayout"
+        android:layout_marginBottom="10dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/constraintLayout"
+        android:layout_marginEnd="5dp"
+       />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
