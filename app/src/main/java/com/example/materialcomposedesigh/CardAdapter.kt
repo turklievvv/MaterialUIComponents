@@ -110,6 +110,7 @@ class CardAdapter(
                 )
                 "Dialogs"-> context.startActivity(Intent(context, DialogsActivity::class.java))
                 "Menus"->context.startActivity(Intent(context, MenusActivity::class.java))
+                "Bottom app bar" ->context.startActivity(Intent(context, BottomAppBarActivity::class.java))
             }
         }
     }
