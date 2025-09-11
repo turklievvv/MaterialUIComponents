@@ -43,7 +43,8 @@ class MainActivity : AppCompatActivity() {
             CardItem("Bottom Sheet",R.drawable.bottom_navigation_ik),
             CardItem("Dialogs",R.drawable.chips_svg),
             CardItem("Menus",R.drawable.chips_svg),
-            CardItem("Bottom app bar",R.drawable.bottom_navigation_ik)
+            CardItem("Bottom app bar",R.drawable.bottom_navigation_ik),
+            CardItem("Lists",R.drawable.bottom_navigation_ik)
 
 
         )

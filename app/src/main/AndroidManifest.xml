@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MaterialComposeDesigh"
         tools:targetApi="31">
         <activity
+            android:name=".Lists.ThreeLineListItemWithExtendedSupporting"
+            android:exported="false" />
+        <activity
+            android:name=".Lists.ThreeLineListItemWithOverlineAndSupporting"
+            android:exported="false" />
+        <activity
+            android:name=".Lists.TwoLineListItem"
+            android:exported="false" />
+        <activity
+            android:name=".Lists.OneLineListItem"
+            android:exported="false" />
+        <activity
+            android:name=".ListsActivity"
+            android:exported="false" />
+        <activity
             android:name=".BottomAppBars.ExitAlwaysBottomAppBar"
             android:exported="false" />
         <activity
