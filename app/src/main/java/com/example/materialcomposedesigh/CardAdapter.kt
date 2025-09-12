@@ -112,6 +112,7 @@ class CardAdapter(
                 "Menus"->context.startActivity(Intent(context, MenusActivity::class.java))
                 "Bottom app bar" ->context.startActivity(Intent(context, BottomAppBarActivity::class.java))
                 "Lists"->context.startActivity(Intent(context, ListsActivity::class.java))
+                "Sliders"->context.startActivity(Intent(context, SlidersActivity::class.java))
             }
         }
     }

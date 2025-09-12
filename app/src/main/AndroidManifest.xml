@@ -13,6 +13,30 @@
         android:theme="@style/Theme.MaterialComposeDesigh"
         tools:targetApi="31">
         <activity
+            android:name=".Sliders.RangeSliderWithCustomComponents"
+            android:exported="false" />
+        <activity
+            android:name=".Sliders.StepRangeSliderSample"
+            android:exported="false" />
+        <activity
+            android:name=".Sliders.RangeSliderSample"
+            android:exported="false" />
+        <activity
+            android:name=".Sliders.SliderWithCustomTrackAndThumb"
+            android:exported="false" />
+        <activity
+            android:name=".Sliders.SliderWithCustomThumbSample"
+            android:exported="false" />
+        <activity
+            android:name=".Sliders.StepSliderSample"
+            android:exported="false" />
+        <activity
+            android:name=".Sliders.SliderSample"
+            android:exported="false" />
+        <activity
+            android:name=".SlidersActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lists.ThreeLineListItemWithExtendedSupporting"
             android:exported="false" />
         <activity
