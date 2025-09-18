@@ -13,6 +13,30 @@
         android:theme="@style/Theme.MaterialComposeDesigh"
         tools:targetApi="31">
         <activity
+            android:name=".PullToRefreshIndicators.PullToRefreshViewModelSample"
+            android:exported="false" />
+        <activity
+            android:name=".PullToRefreshIndicators.PullToRefreshScallingSample"
+            android:exported="false" />
+        <activity
+            android:name=".PullToRefreshIndicators.PullToRefreshSample"
+            android:exported="false" />
+        <activity
+            android:name=".PullToRefreshSample"
+            android:exported="false" />
+        <activity
+            android:name=".Carousels.FadingHorizontalStrategy"
+            android:exported="false" />
+        <activity
+            android:name=".Carousels.HorizontalUncontainedCarouselSample"
+            android:exported="false" />
+        <activity
+            android:name=".Carousels.HorizontalMultiBrowseCarouselSample"
+            android:exported="false" />
+        <activity
+            android:name=".Carousel"
+            android:exported="false" />
+        <activity
             android:name=".Sliders.RangeSliderWithCustomComponents"
             android:exported="false" />
         <activity

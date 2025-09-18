@@ -45,7 +45,9 @@ class MainActivity : AppCompatActivity() {
             CardItem("Menus",R.drawable.chips_svg),
             CardItem("Bottom app bar",R.drawable.bottom_navigation_ik),
             CardItem("Lists",R.drawable.bottom_navigation_ik),
-            CardItem("Sliders",R.drawable.bottom_navigation_ik)
+            CardItem("Sliders",R.drawable.bottom_navigation_ik),
+            CardItem("Carousel",R.drawable.bottom_navigation_ik),
+            CardItem("Pull to refresh indicator",R.drawable.bottom_navigation_ik)
 
 
         )

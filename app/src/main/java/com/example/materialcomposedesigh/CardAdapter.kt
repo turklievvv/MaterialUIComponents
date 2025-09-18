@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.materialcomposedesigh.Module.CardItem
-import com.example.materialcomposedesigh.NavigationBarActivity
 
 class CardAdapter(
     private val items: List<CardItem>, private val context: Context
@@ -113,6 +112,8 @@ class CardAdapter(
                 "Bottom app bar" ->context.startActivity(Intent(context, BottomAppBarActivity::class.java))
                 "Lists"->context.startActivity(Intent(context, ListsActivity::class.java))
                 "Sliders"->context.startActivity(Intent(context, SlidersActivity::class.java))
+                "Carousel"->context.startActivity(Intent(context, Carousel::class.java))
+                "Pull to refresh indicator"->context.startActivity(Intent(context,PullToRefreshSample::class.java))
             }
         }
     }
