@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MaterialComposeDesigh"
         tools:targetApi="31">
         <activity
+            android:name=".TopAppBars.ExitUntilCollapsedMediumTopAppBar"
+            android:exported="false" />
+        <activity
+            android:name=".TopAppBars.EnterAlwaysTopAppBar"
+            android:exported="false" />
+        <activity
+            android:name=".TopAppBars.PinnedTopAppBar"
+            android:exported="false" />
+        <activity
+            android:name=".TopAppBars.SimpleCenterAlignedTopAppBar"
+            android:exported="false" />
+        <activity
+            android:name=".TopAppBars.SimpleTopAppBar"
+            android:exported="false" />
+        <activity
+            android:name=".TopAppBar"
+            android:exported="false" />
+        <activity
             android:name=".Tabs.FancyTabs"
             android:exported="false" />
         <activity

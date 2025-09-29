@@ -117,6 +117,7 @@ class CardAdapter(
                 "Navigation Drawer" ->context.startActivity(Intent(context,
                     NavigationDrawerActivity::class.java))
                 "Tabs"->context.startActivity(Intent(context, TabsActivity::class.java))
+                "Top app bar"->context.startActivity(Intent(context, TopAppBar::class.java))
             }
         }
     }
