@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/item1"
+        android:enabled="true"
+        android:icon="@drawable/icon_buttons"
+        android:title="Профиль"
+        >
+
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+        android:icon="@drawable/outline_dots_ik"
+        android:title="Настройки"
+        >
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/like"
+        android:title="Стать частью MMC"
+        android:enabled="true"
+        >
+
+    </item>
+</group>
+</menu>

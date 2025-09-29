@@ -47,7 +47,9 @@ class MainActivity : AppCompatActivity() {
             CardItem("Lists",R.drawable.bottom_navigation_ik),
             CardItem("Sliders",R.drawable.bottom_navigation_ik),
             CardItem("Carousel",R.drawable.bottom_navigation_ik),
-            CardItem("Pull to refresh indicator",R.drawable.bottom_navigation_ik)
+            CardItem("Pull to refresh indicator",R.drawable.bottom_navigation_ik),
+            CardItem("Navigation Drawer",R.drawable.bottom_navigation_ik),
+            CardItem("Tabs",R.drawable.bottom_navigation_ik)
 
 
         )

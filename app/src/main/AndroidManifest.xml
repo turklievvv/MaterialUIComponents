@@ -13,6 +13,48 @@
         android:theme="@style/Theme.MaterialComposeDesigh"
         tools:targetApi="31">
         <activity
+            android:name=".Tabs.FancyTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.ScrollingSecondaryTextTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.ScrollinsPrimaryTextTab"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.LeadingIconTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.TextAndIconTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.SecondaryIconTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.SecondaryTextTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.PrimaryIconTabs"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs.PrimaryTextTabs"
+            android:exported="false" />
+        <activity
+            android:name=".TabsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawers.DissmisibleNavigationDrawerSample"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawers.PermanentNavigationDrawerSample"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawers.ModalNavigationDrawerSample"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:exported="false" />
+        <activity
             android:name=".PullToRefreshIndicators.PullToRefreshViewModelSample"
             android:exported="false" />
         <activity
@@ -146,6 +188,9 @@
             android:exported="false" />
         <activity
             android:name=".Snackbars.ScaffordWithCoroutineSnackbar"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawers.DismissibleNavigationDrawerSample"
             android:exported="false" />
         <activity
             android:name=".Snackbars.ScaffordWithCustomSnackbar"

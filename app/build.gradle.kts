@@ -54,6 +54,8 @@ dependencies {
     implementation ("androidx.cardview:cardview:1.0.0")
     implementation ("com.google.android.material:material:1.13.0")
     implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation ("androidx.drawerlayout:drawerlayout:1.1.1")
+    implementation ("androidx.appcompat:appcompat:1.3.1")
 
 
 

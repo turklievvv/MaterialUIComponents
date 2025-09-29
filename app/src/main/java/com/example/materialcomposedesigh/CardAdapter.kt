@@ -114,6 +114,9 @@ class CardAdapter(
                 "Sliders"->context.startActivity(Intent(context, SlidersActivity::class.java))
                 "Carousel"->context.startActivity(Intent(context, Carousel::class.java))
                 "Pull to refresh indicator"->context.startActivity(Intent(context,PullToRefreshSample::class.java))
+                "Navigation Drawer" ->context.startActivity(Intent(context,
+                    NavigationDrawerActivity::class.java))
+                "Tabs"->context.startActivity(Intent(context, TabsActivity::class.java))
             }
         }
     }
